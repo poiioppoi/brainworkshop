@@ -1076,7 +1076,7 @@ class Mode:
         self.started = False
         self.paused = False
         self.show_missed = False
-        self.sound_select = False
+        self.sound_select = True
         self.draw_graph = False
         self.saccadic = False
         if cfg.SKIP_TITLE_SCREEN:
